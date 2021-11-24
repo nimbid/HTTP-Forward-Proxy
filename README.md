@@ -6,7 +6,6 @@ The project is a part of CSCI 5273: Network Systems.
 ## Instructions
 The makefile will compile the source code into a file named 'webproxy'. Note that the makefile compiler and linker flags will need to be modified depending on where the OpenSSL library is installed on your computer.  
 
-If compiling on Linux, you can remove the -I and -L directory-specifying flags from CFLAGS and LDFLAGS. Instead, in LDFLAGS, you will need to add `-lpthread`.
 ```
 make
 ```
