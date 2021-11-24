@@ -4,7 +4,7 @@ A multi-threaded, HTTP-only forward proxy that handles GET requests, and perform
 The project is a part of CSCI 5273: Network Systems.  
 
 ## Instructions
-The makefile will compile the source code into a file named 'webproxy'. Note that the makefile compiler and linker flags will need to be modified depending on where your OpenSSL library is installed on your computer. 
+The makefile will compile the source code into a file named 'webproxy'. Note that the makefile compiler and linker flags will need to be modified depending on where the OpenSSL library is installed on your computer. 
 ```
 make
 ```
