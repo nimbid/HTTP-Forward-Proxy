@@ -699,6 +699,7 @@ void send_without_caching(struct http_request *request)
 }
 
 
+// Sends given cached page to the client.
 void send_cached_page(struct http_request *request)
 {   
     printf("Sending cached page: %s%s\n", request->host_name, request->directory);
@@ -775,6 +776,7 @@ void send_cached_page(struct http_request *request)
 }
 
 
+// Fetches content from origin HTTP server, caches it, and triggers send_cached_page().
 void cache_and_send(struct http_request *request)
 {
     //Establish a connection with the origin HTTP Server
